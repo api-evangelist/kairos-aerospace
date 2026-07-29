@@ -1,7 +1,29 @@
 aid: kairos-aerospace
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kairos-aerospace.png
 name: Kairos Aerospace
-description: Kairos Aerospace is a company surfaced as a portfolio company of dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Kairos Aerospace is a methane-detection company founded in 2014 in Sunnyvale,
+  California that provides cost-effective, high-frequency aerial methane
+  detection for the oil and gas industry. Its patented LeakSurveyor spectrometer
+  is flown over upstream and midstream infrastructure to image methane plumes,
+  and proprietary software turns those flights into actionable emissions data so
+  operators can find, prioritize, and fix leaks. The company rebranded as
+  Insight M in March 2024 and was subsequently acquired by Zeitview. Kairos
+  Aerospace was surfaced as a portfolio company of DCVC and added to the API
+  Evangelist network. It publishes no public developer API, SDK, or
+  documentation surface, so this profile is an identity record rather than an
+  API catalog entry.
 url: https://raw.githubusercontent.com/api-evangelist/kairos-aerospace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,40 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-note: >-
+  Rebranded Kairos Aerospace -> Insight M (March 2024); later acquired by
+  Zeitview. No public developer/API surface exists as of this enrichment pass.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Methane Detection
+- Emissions Monitoring
+- Oil and Gas
+- Aerial Imaging
+- Remote Sensing
+- Climate Tech
+- Energy
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.insightm.com/
+- type: About
+  url: https://www.insightm.com/about
+- type: Support
+  url: https://www.insightm.com/contact
+- type: Careers
+  url: https://www.insightm.com/about/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/kairosaerospace/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
