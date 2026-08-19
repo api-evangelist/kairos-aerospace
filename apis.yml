@@ -34,7 +34,7 @@ x-tier-reason: portfolio-lead
 x-note: >-
   Rebranded Kairos Aerospace -> Insight M (March 2024); later acquired by
   Zeitview. No public developer/API surface exists as of this enrichment pass.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
