@@ -64,6 +64,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/zeitview/
+  name: Zeitview
+  x-relationship: acquired
+  x-evidence: "The company rebranded as Insight M in March 2024 and was subsequently acquired by Zeitview. Kairos Aerospace was surfaced as a portfolio company of DCVC and added to the API Evangelist network."
 - type: Website
   url: https://www.insightm.com/
 - type: About
